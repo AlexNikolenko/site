@@ -1,22 +1,21 @@
 body {
-margin: 0;
+background: #222;
+	margin: 0rem;
+	min-height: 100vh;
 }
 
 #particleCanvas {
   position: absolute;
 	display: block;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background: #222;
-  opacity: 0;  /* test  */
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 #textCanvas {
+	position: absolute;
 	display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  background: #000;
+	top: 0;
+	left: 0;
+	z-index: 0;
 }
