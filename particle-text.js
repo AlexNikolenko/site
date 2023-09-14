@@ -11,13 +11,13 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "Alex_Nik";
-var num = 700;
+var num = 500;
 var particles = [];
 
 var toff = 0.0;
 
 tctx.fillStyle = "rgba(255, 255, 255, 1)";
-tctx.font = "16em Arial Black";
+tctx.font = "14em Arial Black";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
 tctx.fillText(textStr, tcw-50, tch/2);
