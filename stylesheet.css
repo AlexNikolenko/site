@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+#particleCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #222;
+}
+
+#textCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: #000;
+}
