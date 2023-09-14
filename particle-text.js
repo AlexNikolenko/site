@@ -47,7 +47,7 @@ function Particle(x, y) {
   this.theta = (Math.random() * 2 - 1)*0.02;
   this.thetab = 8;
   this.c = "rgba(250, 250, 255, 1.0)";
-  this.lineLength = 1000;
+  this.lineLength = 100;
 }
 
 Particle.prototype.draw = function() {
