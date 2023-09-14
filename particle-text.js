@@ -16,7 +16,7 @@ var particles = [];
 
 var toff = 0.0;
 
-tctx.fillStyle = "rgba(200, 200, 255, 0.90)";
+tctx.fillStyle = "rgba(255, 255, 255, 1)";
 tctx.font = "20em Arial Black";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
