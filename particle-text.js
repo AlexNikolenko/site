@@ -11,7 +11,7 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "Alex_Nik";
-var num = 300;
+var num = 900;
 var particles = [];
 
 var toff = 0.0;
