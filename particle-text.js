@@ -11,13 +11,13 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "Alex_Nik";
-var num = 1000;
+var num = 700;
 var particles = [];
 
 var toff = 0.0;
 
 tctx.fillStyle = "rgba(255, 255, 255, 1)";
-tctx.font = "20em Arial Black";
+tctx.font = "18em Arial Black";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
 tctx.fillText(textStr, tcw-50, tch/2);
@@ -46,7 +46,7 @@ function Particle(x, y) {
   this.r = 3;
   this.theta = (Math.random() * 2 - 1)*0.02;
   this.thetab = 8;
-  this.c = "rgba(255, 255, 255, 1)";
+  this.c = "rgba(230, 230, 255, 0.9)";
   this.lineLength = 500;
 }
 
