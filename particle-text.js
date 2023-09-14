@@ -11,7 +11,7 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "Alex_Nik";
-var num = 500;
+var num = 300;
 var particles = [];
 
 var toff = 0.0;
@@ -47,7 +47,7 @@ function Particle(x, y) {
   this.theta = (Math.random() * 2 - 1)*0.02;
   this.thetab = 8;
   this.c = "rgba(250, 250, 255, 1.0)";
-  this.lineLength = 100;
+  this.lineLength = 300;
 }
 
 Particle.prototype.draw = function() {
