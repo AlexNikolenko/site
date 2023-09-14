@@ -18,7 +18,7 @@ var toff = 0.0;
 
 tctx.fillStyle = "rgba(255, 255, 255, 1)";
 tctx.font = "20em Arial Black";
-tctx.textAlign = "center";
+tctx.textAlign = "left";
 tctx.textBaseline = "middle";
 tctx.fillText(textStr, tcw-50, tch/2);
 
