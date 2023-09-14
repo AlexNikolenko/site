@@ -1,5 +1,7 @@
 body {
-  margin: 0;
+  background: #222;
+	margin: 0rem;
+	min-height: 100vh;
 }
 
 #particleCanvas {
@@ -8,6 +10,7 @@ body {
   left: 0;
   z-index: 1;
   background: #222;
+  opacity: 0;  /* test  */
 }
 
 #textCanvas {
