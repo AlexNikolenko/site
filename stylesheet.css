@@ -13,6 +13,7 @@ margin: 0;
 }
 
 #textCanvas {
+	display: block;
   position: absolute;
   top: 0;
   left: 0;
