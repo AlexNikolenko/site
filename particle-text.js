@@ -52,7 +52,7 @@ function Particle(x, y) {
   this.y = y;
   this.vx = 0;
   this.vy = 0;
-  this.r = 3;
+  this.r = 2;
   this.theta = (Math.random() * 2 - 1)*0.02;
   this.thetab = 4;
   this.c = "rgba(250, 250, 255, 1.0)";
