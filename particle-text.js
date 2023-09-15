@@ -18,7 +18,7 @@ var tch = textCanvas.height = ch;
 
 var mouseX = 0, mouseY = 0;
 
-var textStr = "ВИКА+ЛЁША";
+var textStr = "Вика+Лёша=?";
 var num = 900;
 var particles = [];
 
