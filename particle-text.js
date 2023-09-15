@@ -28,7 +28,7 @@ var toff = 0.0;
 
 tctx.fillStyle = "rgba(255, 255, 255, 1)";
 // tctx.font = "130px NovemberCondensed";
-tctx.font = "250px NovemberCondensed";
+tctx.font = "300px NovemberCondensed";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
 //tctx.strokeText(textStr, tcw-50, tch/2);
