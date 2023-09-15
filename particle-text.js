@@ -28,7 +28,7 @@ var toff = 0.0;
 
 tctx.fillStyle = "rgba(255, 255, 255, 1)";
 // tctx.font = "130px NovemberCondensed";
-tctx.font = "300px NovemberCondensed";
+tctx.font = "500px NovemberCondensed";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
 //tctx.strokeText(textStr, tcw-50, tch/2);
@@ -62,7 +62,7 @@ function Particle(x, y) {
   this.thetab = 5;
   this.c = "rgba(240, 240, 255, 0.7)";
   //this.lineLength = 150;    // максимально возможная длина линии связи между точками
-  this.lineLength = 500;
+  this.lineLength = 300;
 }
 
 Particle.prototype.draw = function() {
