@@ -1,3 +1,10 @@
+const font = new FontFace("NovemberCondensed", "url(font/NovemberCondensedLCG-Heavy.woff2)", {
+    style: "normal",
+    weight: "900",
+    display: "swap",
+  });
+await font.load();
+
 var canvas = document.getElementById("particleCanvas");
 var textCanvas = document.getElementById("textCanvas");
 var ctx = canvas.getContext("2d");
@@ -17,7 +24,8 @@ var particles = [];
 var toff = 0.0;
 
 tctx.fillStyle = "rgba(255, 255, 255, 1)";
-tctx.font = "14em Arial Black";
+// tctx.font = "14em Arial Black";
+tctx.font = "14em NovemberCondensed";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
 tctx.fillText(textStr, tcw-50, tch/2);
