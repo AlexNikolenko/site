@@ -59,7 +59,7 @@ function Particle(x, y) {
   this.thetab = 2.5;      // расстояние перемещения
   this.c = "rgba(240, 240, 255, 0.8)";
   // this.lineLength = 250;
-  this.lineLength = 150;    // максимально возможная длина линии связи между точками
+  this.lineLength = 170;    // максимально возможная длина линии связи между точками
 }
 
 Particle.prototype.draw = function() {
