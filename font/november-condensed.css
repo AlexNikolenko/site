@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'November Condensed LCG';
+    src: local('November Condensed LCG Heavy'),
+         local('NovemberCondensedLCG-Heavy'),
+         url('NovemberCondensedLCG-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'November Condensed LCG';
+    src: local('November Condensed LCG Black'),
+         local('NovemberCondensedLCG-Black'),
+         url('NovemberCondensedLCG-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
