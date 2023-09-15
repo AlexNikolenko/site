@@ -19,14 +19,14 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "ВИКА+ЛЁША";
-var num = 900;
+var num = 1200;
 var particles = [];
 
 var toff = 0.0;
 
 tctx.fillStyle = "rgba(255, 255, 255, 1)";
 // tctx.font = "14em Arial Black";
-tctx.font = "16em NovemberCondensed";
+tctx.font = "14em NovemberCondensed";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
 tctx.fillText(textStr, tcw-50, tch/2);
