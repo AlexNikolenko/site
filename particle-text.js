@@ -31,8 +31,8 @@ tctx.fillStyle = "rgba(255, 255, 255, 1)";
 tctx.font = "250px NovemberCondensed";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
-// tctx.fillText(textStr, tcw-50, tch/2);
-tctx.strokeText(textStr, tcw-50, tch/2);
+//tctx.strokeText(textStr, tcw-50, tch/2);
+tctx.fillText(textStr, tcw-50, tch/2);
 
 var mt = tctx.measureText(textStr)
 
