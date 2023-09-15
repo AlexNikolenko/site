@@ -55,14 +55,15 @@ function Particle(x, y) {
   this.y = y;
   this.vx = 0;
   this.vy = 0;
-  this.r = 3.0;        // диаметр точки
+  // this.r = 3.0;        // диаметр точки
+  this.r = 5.0;        // диаметр точки
   // this.theta = (Math.random() * 2 - 1)*0.015;       // скорость перемещения
   this.theta = (Math.random() * 2 - 1)*0.025;       // скорость перемещения
   //this.thetab = 2.3;      // расстояние перемещения
   this.thetab = 7;
   this.c = "rgba(240, 240, 255, 0.7)";
   //this.lineLength = 150;    // максимально возможная длина линии связи между точками
-  this.lineLength = 500;
+  this.lineLength = 300;
 }
 
 Particle.prototype.draw = function() {
