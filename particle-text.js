@@ -19,7 +19,7 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "ВИКА+ЛЁША";
-var num = 1000;
+var num = 900;
 var particles = [];
 
 var toff = 0.0;
@@ -55,12 +55,12 @@ function Particle(x, y) {
   this.vy = 0;
   this.r = 3.0;        // диаметр точки
   // this.theta = (Math.random() * 2 - 1)*0.02;
-  this.theta = (Math.random() * 2 - 1)*0.01;
+  this.theta = (Math.random() * 2 - 1)*0.03;
   // this.thetab = 5;
   this.thetab = 3;      // расстояние перемещения
   this.c = "rgba(250, 250, 255, 0.8)";
   // this.lineLength = 250;
-  this.lineLength = 130;    // максимально возможная длина линии связи между точками
+  this.lineLength = 140;    // максимально возможная длина линии связи между точками
 }
 
 Particle.prototype.draw = function() {
