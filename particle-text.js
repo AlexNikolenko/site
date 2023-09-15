@@ -19,7 +19,7 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "ВИКА+ЛЁША";
-var num = 1100;
+var num = 1000;
 var particles = [];
 
 var toff = 0.0;
@@ -52,7 +52,7 @@ function Particle(x, y) {
   this.y = y;
   this.vx = 0;
   this.vy = 0;
-  this.r = 2;
+  this.r = 3;
   this.theta = (Math.random() * 2 - 1)*0.02;
   this.thetab = 4;
   this.c = "rgba(250, 250, 255, 1.0)";
