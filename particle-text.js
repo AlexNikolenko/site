@@ -18,7 +18,7 @@ var tch = textCanvas.height = ch;
 
 var mouseX = 0, mouseY = 0;
 
-var textStr = "Вика и Лёша";
+var textStr = "ВИКА и ЛЁША";
 var num = 1000;
 var particles = [];
 
@@ -59,7 +59,7 @@ function Particle(x, y) {
   this.thetab = 2.5;      // расстояние перемещения
   this.c = "rgba(240, 240, 255, 0.7)";
   // this.lineLength = 250;
-  this.lineLength = 150;    // максимально возможная длина линии связи между точками
+  this.lineLength = 140;    // максимально возможная длина линии связи между точками
 }
 
 Particle.prototype.draw = function() {
