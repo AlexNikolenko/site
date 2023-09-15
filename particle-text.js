@@ -21,7 +21,7 @@ var mouseX = 0, mouseY = 0;
 // var textStr = "ВИКА и ЛЁША";
 // var num = 900;
 var textStr = "❤️";
-var num = 500;
+var num = 700;
 var particles = [];
 
 var toff = 0.0;
