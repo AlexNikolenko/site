@@ -21,7 +21,7 @@ var mouseX = 0, mouseY = 0;
 var textStr = "ВИКА и ЛЁША";
 var num = 900;
 var textStr = "❤️";
-var num = 300;
+var num = 500;
 var particles = [];
 
 var toff = 0.0;
@@ -59,10 +59,10 @@ function Particle(x, y) {
   // this.theta = (Math.random() * 2 - 1)*0.015;       // скорость перемещения
   this.theta = (Math.random() * 2 - 1)*0.025;       // скорость перемещения
   //this.thetab = 2.3;      // расстояние перемещения
-  this.thetab = 5;
+  this.thetab = 7;
   this.c = "rgba(240, 240, 255, 0.7)";
   //this.lineLength = 150;    // максимально возможная длина линии связи между точками
-  this.lineLength = 300;
+  this.lineLength = 500;
 }
 
 Particle.prototype.draw = function() {
