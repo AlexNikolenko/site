@@ -1,12 +1,12 @@
-const font = new FontFace("NovemberCondensed", "url(font/NovemberCondensedLCG-Heavy.woff2)", {
+let font = new FontFace("NovemberCondensed", "url(font/NovemberCondensedLCG-Heavy.woff2)", {
     style: "normal",
     weight: "900",
     display: "swap",
   });
-// await font.load();
-font.load();
 
-var canvas = document.getElementById("particleCanvas");
+// await font.load();
+font.load().then(() => {
+  var canvas = document.getElementById("particleCanvas");
 var textCanvas = document.getElementById("textCanvas");
 var ctx = canvas.getContext("2d");
 var tctx = textCanvas.getContext("2d");
@@ -113,3 +113,5 @@ function animate() {
 }
 
 init();
+
+});
