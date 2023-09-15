@@ -52,11 +52,11 @@ function Particle(x, y) {
   this.y = y;
   this.vx = 0;
   this.vy = 0;
-  this.r = 2;
+  this.r = 3;
   this.theta = (Math.random() * 2 - 1)*0.02;
   this.thetab = 6;
   this.c = "rgba(250, 250, 255, 1.0)";
-  this.lineLength = 300;
+  this.lineLength = 500;
 }
 
 Particle.prototype.draw = function() {
