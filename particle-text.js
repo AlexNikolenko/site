@@ -24,7 +24,7 @@ var particles = [];
 
 var toff = 0.0;
 
-tctx.fillStyle = "rgba(200, 200, 255, 1)";
+tctx.fillStyle = "rgba(200, 200, 255, 0.9)";
 // tctx.font = "14em Arial Black";
 tctx.font = "14em NovemberCondensed";
 tctx.textAlign = "right";
