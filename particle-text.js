@@ -19,7 +19,7 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "Вика и Лёша";
-var num = 900;
+var num = 1000;
 var particles = [];
 
 var toff = 0.0;
