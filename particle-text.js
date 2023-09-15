@@ -54,13 +54,12 @@ function Particle(x, y) {
   this.vx = 0;
   this.vy = 0;
   this.r = 3.0;        // диаметр точки
-  // this.theta = (Math.random() * 2 - 1)*0.02;
-  this.theta = (Math.random() * 2 - 1)*0.03;
+  this.theta = (Math.random() * 2 - 1)*0.15;       // скорость перемещения
   // this.thetab = 5;
-  this.thetab = 3;      // расстояние перемещения
-  this.c = "rgba(250, 250, 255, 0.8)";
+  this.thetab = 2.5;      // расстояние перемещения
+  this.c = "rgba(240, 240, 255, 0.7)";
   // this.lineLength = 250;
-  this.lineLength = 140;    // максимально возможная длина линии связи между точками
+  this.lineLength = 150;    // максимально возможная длина линии связи между точками
 }
 
 Particle.prototype.draw = function() {
