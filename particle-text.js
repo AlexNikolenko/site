@@ -3,7 +3,8 @@ const font = new FontFace("NovemberCondensed", "url(font/NovemberCondensedLCG-He
     weight: "900",
     display: "swap",
   });
-await font.load();
+// await font.load();
+font.load();
 
 var canvas = document.getElementById("particleCanvas");
 var textCanvas = document.getElementById("textCanvas");
