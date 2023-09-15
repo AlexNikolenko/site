@@ -19,7 +19,7 @@ var tch = textCanvas.height = ch;
 var mouseX = 0, mouseY = 0;
 
 var textStr = "Вика+Лёша=?";
-var num = 900;
+var num = 1200;
 var particles = [];
 
 var toff = 0.0;
@@ -54,7 +54,7 @@ function Particle(x, y) {
   this.vx = 0;
   this.vy = 0;
   this.r = 3.0;        // диаметр точки
-  this.theta = (Math.random() * 2 - 1)*0.15;       // скорость перемещения
+  this.theta = (Math.random() * 2 - 1)*0.015;       // скорость перемещения
   // this.thetab = 5;
   this.thetab = 2.5;      // расстояние перемещения
   this.c = "rgba(240, 240, 255, 0.7)";
