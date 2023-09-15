@@ -26,7 +26,7 @@ var toff = 0.0;
 
 tctx.fillStyle = "rgba(255, 255, 255, 1)";
 // tctx.font = "14em Arial Black";
-tctx.font = "14em NovemberCondensed";
+tctx.font = "150px NovemberCondensed";
 tctx.textAlign = "right";
 tctx.textBaseline = "middle";
 tctx.fillText(textStr, tcw-50, tch/2);
